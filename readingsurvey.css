@@ -1,0 +1,39 @@
+body {
+  background-image: url(https://media.istockphoto.com/vectors/illustration-of-book-shelf-with-old-and-new-books-vector-id455595909?k=6&m=455595909&s=612x612&w=0&h=oRrKY2Q0NEJUVWIDIhDqUYWaTeHZ5x0rMTITtqnMhps=);
+  background-repeat: repeat;
+  background-size: 170px;
+  font-family: garamond;
+  font-size: 25px;
+}
+
+h1 {
+text-align: center;
+}
+
+.jumbotron {
+  background-color: beige;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.container {
+  background-color: beige;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+div.justified {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+div.buttonholder {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#description {
+  text-align: center;
+}

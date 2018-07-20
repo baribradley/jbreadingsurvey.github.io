@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Reading Survey</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+  <link
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron page-header">
+    <h1 id="title">Reading Survey</h1>
+    </div>
+
+    <p id="description">What are people reading these days?</p>
+    <form class="form-horizontal" action="">
+  <div class="form-group row">
+    <label class="control-label col-md-2 col-form-label" id="name-label" for="Name">Name:</label>
+      <div class="col-md-10">
+      <input type="Name" class="form-control" id="Name" placeholder="Enter name" required>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label class="control-label col-md-2 col-form-label" id="email-label" for="Email">Email:</label>
+    <div class="col-md-10">
+      <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label class="control-label col-md-2 col-form-label" id="number-label" for="Number">How often do you read?:</label>
+    <div class="col-md-10">
+      <input type="number" class="form-control" id="Number" min="0" max="168" placeholder="Number of hours you read a week" required>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label class="col-md-2 col-form-label" for="Dropdown">Why do you read?</label>
+    <div class="col-md-10">
+    <select>
+      <option value="Just for fun">Just for fun</option>
+      <option valaue="School/work related reasons">School/work related reasons</option>
+      <option value="Fun and school/work related reasons">Fun and school/work related reasons</option>
+    </select>
+  </div>
+</div>
+<div class="form-group row">
+  <label class="col-md-2 col-form-label">Which do you prefer?</label>
+  <div class="col-md-10">
+    <input id="radio1" type="radio" name="Kindle-Physical" value="Kindle/Ebooks"> Kindle/Ebooks<br></input>
+    <input id="radio2" type="radio" name="Kindle-Physical" value="Physical Copies"> Physical Copies<br></input>
+    <input id="radio3" type="radio" name="Kindle-Physical" value="Both"> Both<br></input>
+  </div>
+</div>
+<div class="form-group row">
+  <label class="col-md-2 col-form label">What are your favorite things to read?</label>
+</div>
+  <div class="row">
+    <div class="col-md">
+    <input id="check1" type="checkbox" name="book-type" value="Newspapers"> Newspapers</input>
+    </div>
+    <div class="col-md">
+    <input id="check2" type="checkbox" name="book-type" value="Magazines"> Magazines</input>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md">
+    <input id="check3" type="checkbox" name="book-type" value="Science Fiction"> Science Fiction</input>
+    </div>
+    <div class="col-md">
+    <input id="check4" type="checkbox" name="book-type" value="Satire"> Satire</input>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md">
+    <input id="check5" type="checkbox" name="book-type" value="Drama"> Drama</input>
+    </div>
+    <div class="col-md">
+    <input id="check5" type="checkbox" name="book-type" value="Action and Adventure"> Action and Adventure</input>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md">
+    <input id="check7" type="checkbox" name="book-type" value="Romance"> Romance</input>
+    </div>
+    <div class="col-md">
+    <input id="check8" type="checkbox" name="book-type" value="Mystery"> Mystery</input>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md">
+    <input id="check9" type="checkbox" name="book-type" value="Horror"> Horror</input>
+    </div>
+    <div class="col-md">
+    <input id="check10" type="checkbox" name="book-type" value="Self-help"> Self-help</input>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md">
+    <input id="check11" type="checkbox" name="book-type" value="Poetry"> Poetry</input>
+    </div>
+    <div class="col-md">
+    <input id="check12" type="checkbox" name="book-type" value="Travel"> Travel</input>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md">
+    <input id="check13" type="checkbox" name="book-type" value="Health"> Health</input>
+    </div>
+    <div class="col-md">
+    <input id="check14" type="checkbox" name="book-type" value="Other"> Other</input>
+    </div>
+  </div>
+  <div class="justified">
+    <p>Please feel free to recommend any books below.</p>
+    <textarea id="textarea" name="recommendations" rows="5" columns="5" placeholder="Please type book recommendations here"></textarea>
+  </div>
+  <div class="buttonholder">
+    <input id="submit" type="submit" value="Submit"></input>
+  </div>
+</div>
+</body>
